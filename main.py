@@ -49,5 +49,3 @@ time.sleep(3.5)
 driver.find_element(By.XPATH, '//div[@class="relative z-[1] pt-6"]//span[contains(text(),"ডাউনলোড সার্টিফিকেট")]').click()
 time.sleep(4)
 
-#closing Driver.
-driver.close()
